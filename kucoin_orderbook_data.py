@@ -13,14 +13,14 @@ c.writerow( ['date/time', 'order rank #', 'price (ask)','amount (ask)', 'price (
 
 
 def kucoin_orderbook_function():
-    connection = pymysql.connect(host="localhost", user="adminer", passwd="Crypto#123", database="radmin")
+    connection = pymysql.connect(host="", user="", passwd="", database="")
 
     cursor = connection.cursor()
 
     exchange1 = ccxt.kucoin({
-        'apiKey': '6116ec4ed5f99000063eea07',
-        'secret': 'f08430fb-ba98-42ca-be4a-44f126399430',
-        "password": 'HarrisonN1$',
+        'apiKey': '',
+        'secret': '',
+        "password": '',
         'enableRateLimit': True,
         'has': {'fetchWithdrawals': True, 'withdraw': True}
     })
