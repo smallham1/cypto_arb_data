@@ -28,7 +28,7 @@ def get_positive_accounts(balance):
 
 x = 0
 def zb_orderbook_function():
-    connection = pymysql.connect(host="localhost", user="adminer", passwd="Crypto#123", database="radmin")
+    connection = pymysql.connect(host="", user="", passwd="", database="")
 
     cursor = connection.cursor()
     URL = "https://api.zb.work/data"
