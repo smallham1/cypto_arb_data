@@ -28,12 +28,12 @@ def get_positive_accounts(balance):
 
 def kraken_orderbook_function():
 
-    connection = pymysql.connect(host="localhost", user="adminer", passwd="Crypto#123", database="radmin")
+    connection = pymysql.connect(host="", user="", passwd="", database="")
 
     cursor = connection.cursor()
     exchange = ccxt.kraken({
-        'apiKey': 'kxRoNNn/WukrakenUkx5UVbWSoYXygwvuMVbpcDoCDV6Dv0r4pltoM1bLd6B',
-        'secret': 'lyOxCX2Ffb2V2dzJYoNwYDxO8bjhCzRIQSel5uOqdwqLnYmbt7vIljZgnusINJSas2ZM7EyDoysxZA2Vwekd3w==',
+        'apiKey': '',
+        'secret': '',
         'enableRateLimit': True,
         'has': {'fetchWithdrawals': True, 'withdraw': True}
     })
