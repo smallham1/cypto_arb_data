@@ -15,8 +15,8 @@ import pymysql
 #c = csv.writer(str(bithumb_orderbook_data.csv))
 #c.writerow( ['date/time', 'order rank #', 'price (ask)','amount (ask)', 'price (bid)', 'amount (bid)'] )
 
-api_key = 'de9235bce0b7674b73a393586d1bef20'
-secret_code = 'b7d3c3a1aa922180a9a43f72942d70d0224a82e55843ee7530166a1d3da0436f'
+api_key = 'api_key'
+secret_code = 'secret'
 
 URL_WITHDRAW = 'https://global-openapi.bithumb.pro/openapi/v1/withdraw'
 URL = 'https://global-openapi.bithumb.pro/openapi/v1/spot/'
