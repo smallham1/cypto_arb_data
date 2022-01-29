@@ -26,14 +26,14 @@ def get_positive_accounts(balance):
 
 x = 0
 def cex_orderbook_function():
-    connection = pymysql.connect(host="localhost", user="adminer", passwd="Crypto#123", database="radmin")
+    connection = pymysql.connect(host="", user="", passwd="", database="")
 
     cursor = connection.cursor()
 
     exchange = ccxt.cex({
-        'uid': 'up140746634',
-        'apiKey': 'SCG19878kwPPQgCitzGWiD5lcbs',
-        'secret': 'giKliGEFIF3jWLEPeO6GPcOfOE',
+        'uid': '',
+        'apiKey': '',
+        'secret': '',
         'enableRateLimit': True,
         'has': {'fetchWithdrawals': True, 'withdraw': True}
     })
