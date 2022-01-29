@@ -8,18 +8,17 @@ np.set_printoptions(suppress=True)
 np.set_printoptions(sign=' ')
 np.set_printoptions(formatter={'float': '{: 0.6f}'.format})
 
-url = "http://72.76.64.74/api/v1/order/create"
+url = "http:///api/v1/order/create"
 
-payload = {'email': 'admin@test.com',
-           'password': '1234'}
+payload = {'email': '',
+           'password': ''}
 files = [
 
 ]
 headers = {
     'Accept': 'application/json',
     'X-Requested-With': 'XMLHttpRequest',
-    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiODM0ZTgwNDJmYzc5ZmI5MWRkNWM5MTk5NTMyMTg3MThmNmU3NDYxYTMyN2U2ZGMwMTlhNDViOWVjNzJmMmE1MDMyYTAyNGUzZjM3MGI2OGIiLCJpYXQiOjE2Mzc0NjkyMTUsIm5iZiI6MTYzNzQ2OTIxNSwiZXhwIjoxNjY5MDA1MjE1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.NMsDlzkohrrRJpe1qzJlPbmo1PNmw1mRbwZnFE2bbFzOQyugmbGdef_U9CPqzdEWbu65TUUXZLP6qWpqUNQcK3misoEJNbD4FHdT-_unf1yKMfbOkVRPVILdZHfdGtSVFt2tifJnEHMCC25CvbIGQzyKbVKhcGEdkX6hfvkm_gNK03uKcEFKYs40k4hYLZpSwwKGEyD-Q_hOWpQOFjZTOeCkXf6-Il-6xe-_tWyK2OD3n7JJCb8hcKC0MNZkNHeqKWq2wRuwpKHRqrZw6VrQfddE5q7IPzB9fLqw-0Bn44Mp7lUBaAZY58hrjmhBXnHqYx0EXsG66chIcAyse03VpJDA8z5OIS27AYVRIG4iAZNr16zIdVz36T_hwkd_1TVF7jEp8r6o-b1iJNWB4qGstxnqdco7TA1H-vCFo_m-X7tW4BvNPYK1MqIom8vFT4zeKx0nsngAri5I6WD5XWVKUDvrWkdF0bMI2dspLRHY8mN4xoLqy6el9OSgPOtfDUbSpnA_MZjorv0NEG1nAqEJZ7GAW5i2Tz5fGO2aCtirJztni7JbF9AJAHbfdnH0rCss86VmaUeX_31yeyZGs-qpFf1MgIDDjvrG3KRGnlLgAuw0ZZSkQt2Y_cbifOGx0Y-xxdKZQqN8oNRTWiXjNLBxDNXW-egA6bN-lWAEUvDeW3M'
-}
+    'Authorization': ''}
 
 def orderbook_handler():
 
